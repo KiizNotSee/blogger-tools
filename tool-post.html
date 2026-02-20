@@ -29,7 +29,7 @@
         
             let imgHtml = "";
             urls.forEach((u, i) => {
-                const loading = (i === 0) ? "eager" : "lazy";
+                const loading = (i === 0) ? "eager" : "eager";
                 imgHtml += `      <img class="r18-carousel__img" src="${u.trim()}" alt="Ảnh ${i+1}" loading="${loading}">\n`;
             });
         
